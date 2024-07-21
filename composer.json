@@ -1,0 +1,28 @@
+{
+    "name": "mjderoode/clickup-api",
+    "description": "Clickup API Laravel Package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mjderoode\\ClickupApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mitchell de Roode",
+            "role": "Backend Developer",
+            "email": "m-roode@outlook.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mjderoode\\ClickupApi\\Providers\\ClickupApiProvider"
+            ]
+        }
+    },
+    "require-dev": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
